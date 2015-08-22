@@ -1,9 +1,26 @@
 shadowsocks
 ===========
 
+*Recovery*
+------
+This repo was recovered through the following method:
+
+1. Fork shadowsocks/shadowsocks
+1. `git log --all` to find out the latest commits
+1. Confirmed that the tag "2.8.2" was the latest master
+1. `git checkout 2.8.2 && git branch master`
+1. Push the new master branch and set it to the default branch on Github
+1. Delete "rm" branch locally and remotely
+
+This repo is for backup. No plan for development so far.
+
+Thanks again for all these years, clowwindy.
+
+```
 [![PyPI version]][PyPI]
 [![Build Status]][Travis CI]
 [![Coverage Status]][Coverage]
+```
 
 A fast tunnel proxy that helps you bypass firewalls.
 
